@@ -38,5 +38,6 @@ jobs:
           server: m152.gibz-informatik.ch
           protocol: ftps
           server-dir: sj_21_22/infa3b_08/
+          local-dir: ./dist/m152/
           username: infa3b_08
           password: ${{ secrets.ftp_password }}
