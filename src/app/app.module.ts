@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { LivestreamComponent } from './livestream/livestream.component';
+import { ShakaPlayerComponent } from './shaka-player/shaka-player.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LivestreamComponent } from './livestream/livestream.component';
     AboutComponent,
     HomeComponent,
     TutorialsComponent,
-    LivestreamComponent
+    LivestreamComponent,
+    ShakaPlayerComponent
   ],
   imports: [
     HttpClientModule,

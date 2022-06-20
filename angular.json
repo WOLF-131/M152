@@ -32,10 +32,14 @@
                         ],
                         "styles": [
                             "src/styles.scss",
+                            "src/assets/shaka-player/controls.css",
+                            "src/assets/shaka-player/youtube-theme.css",
                             "node_modules/bootstrap/scss/bootstrap.scss"
                         ],
                         "scripts": [
                             "node_modules/@popperjs/core/dist/umd/popper.min.js",
+                            "src/assets/shaka-player/shaka-player.ui.debug.js",
+                            "src/assets/shaka-player/youtube-script.js",
                             "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
                         ]
                     },

@@ -1,5 +1,5 @@
 <div class="imageContainer">
-    <div *ngFor="let imageData of imageDataList">
-        <img src="{{ imageData.source }}" srcset="{{ imageData.soureSet }}" sizes="{{ imageData.sizes }}" alt="{{ imageData.altInfo }}">
+    <div *ngFor="let imageData of displayImageDataList">
+        <img src="{{ imageData.source }}" srcset="{{ imageData.sourceSet }}" sizes="{{ imageData.sizes }}" alt="{{ imageData.altInfo }}" loading="lazy">
     </div>
 </div>
