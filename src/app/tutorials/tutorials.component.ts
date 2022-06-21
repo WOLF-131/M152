@@ -36,6 +36,14 @@ export class TutorialsComponent implements OnInit {
             )
           );
         });
+
+        this.displayVideoDataList.push(
+          new DisplayVideoData(
+          "http://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd",
+          "Test of mpeg-dash",
+          "Test",
+          true
+        ));
       }
     );
   }

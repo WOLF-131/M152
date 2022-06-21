@@ -52,7 +52,7 @@ export class ShakaPlayerComponent implements OnInit, AfterViewInit {
     this.player
       .load(this.videoSource)
       .then(() => {
-        this.videoElement?.play();
+        // this.videoElement?.play();
       })
       .catch((e: any) => {
         console.error(e);
