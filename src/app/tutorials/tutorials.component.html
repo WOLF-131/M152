@@ -5,11 +5,7 @@
   <div class="row row-cols-auto">
     <div class="col p-4" *ngFor="let videoData of displayVideoDataList">
       <div class="card h-100" style="width: 18rem;">
-          <video *ngIf="!videoData.isStream" controls class="card-img-top">
-            <source src="{{ videoData.source }}" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <app-shaka-player *ngIf="videoData.isStream" [videoSource]="videoData.source" class="card-img-top"></app-shaka-player>
+        <app-shaka-player [videoSource]="videoData.source" class="card-img-top"></app-shaka-player>
         <div class="card-body">
           <h5 class="card-title text-dark">{{ videoData.caption }}</h5>
           <p class="card-text text-dark">{{ videoData.altInfo }}</p>
