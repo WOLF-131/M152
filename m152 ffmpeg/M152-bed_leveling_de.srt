@@ -1,0 +1,31 @@
+﻿1
+00:00:02,000 --> 00:00:10,000
+Anzeige der Klipper-Weboberfläche.
+
+2
+00:00:13,000 --> 00:00:18,000
+Werkzeugkopf Homing starten
+
+3
+00:00:20,000 --> 00:00:25,000
+Live-Feed des Werkzeugkopf Homing
+
+4
+00:00:48,000 --> 00:00:53,000
+Z-Tilt bed leveling 
+
+5
+00:00:55,000 --> 00:01:00,000
+Live Feed des Z-Tilt bed leveling
+
+6
+00:01:05,000 --> 00:01:15,000
+Nach den ersten drei Messungen wird das Bett automatisch geleveled.
+
+7
+00:01:20,000 --> 00:01:30,000
+Dieser Vorgang wird bis zu 10 Mal wiederholt, bis die verschiedenen Messungen innerhalb der Toleranzen liegen.
+
+8
+00:02:00,000 --> 00:02:05,000
+Das ist, wie ich bei meinem Ratrig V-Core 3 bedleveling ausführe.
