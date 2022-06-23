@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT7.35S" mediaPresentationDuration="PT2M10.200S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-639 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="3840" maxHeight="2160">
+      <SegmentTemplate timescale="1000" duration="7346" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="video/avc1/1" codecs="avc1.640015" width="480" height="270" scanType="progressive" frameRate="30" bandwidth="132505"/>
+      <Representation id="video/avc1/2" codecs="avc1.64001E" width="640" height="360" scanType="progressive" frameRate="30" bandwidth="217432"/>
+      <Representation id="video/avc1/3" codecs="avc1.64001F" width="960" height="540" scanType="progressive" frameRate="30" bandwidth="450668"/>
+      <Representation id="video/avc1/4" codecs="avc1.64001F" width="1280" height="720" scanType="progressive" frameRate="30" bandwidth="723844"/>
+      <Representation id="video/avc1/5" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="30" bandwidth="1261477"/>
+      <Representation id="video/avc1/6" codecs="avc1.640033" width="3840" height="2160" scanType="progressive" frameRate="30" bandwidth="3926960"/>
+      <Representation id="video/avc1/7" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="30" bandwidth="1261477"/>
+      <Representation id="video/avc1/8" codecs="avc1.640028" width="1920" height="1080" scanType="progressive" frameRate="30" bandwidth="1261477"/>
+    </AdaptationSet>
+    <!-- Audio -->
+    <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true">
+      <SegmentTemplate timescale="1000" duration="7346" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="audio/und/mp4a.40.2" codecs="mp4a.40.2" bandwidth="129902" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:mpegB:cicp:ChannelConfiguration" value="2"/>
+      </Representation>
+    </AdaptationSet>
+    <!-- Subtitles (Sidecar) -->
+    <AdaptationSet mimeType="text/vtt" contentType="text" lang="de">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="subtitles/de" bandwidth="41">
+        <BaseURL>subtitles/de/subtitles-de.vtt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="text/vtt" contentType="text" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="subtitles/en" bandwidth="38">
+        <BaseURL>subtitles/en/subtitles-en.vtt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>

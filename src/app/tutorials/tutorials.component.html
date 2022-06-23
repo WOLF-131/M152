@@ -5,7 +5,12 @@
   <div class="row row-cols-auto">
     <div class="col p-4" *ngFor="let videoData of displayVideoDataList">
       <div class="card h-100" style="width: 18rem;">
-        <app-shaka-player [videoSource]="videoData.source" class="card-img-top"></app-shaka-player>
+        <video *ngIf="!videoData.isStream" controls>
+          <source src="{{ videoData.source }}" type="video/mp4" >
+          Your browser does not support the video tag.
+          <track *ngFor="let subData of videoData.subs" src="{{ subData.source }}" kind="subtitles" srclang="{{ subData.lang }}" label="{{ subData.label }}">
+        </video>
+        <app-shaka-player *ngIf="videoData.isStream" [videoSource]="videoData.source" class="card-img-top"></app-shaka-player>
         <div class="card-body">
           <h5 class="card-title text-dark">{{ videoData.caption }}</h5>
           <p class="card-text text-dark">{{ videoData.altInfo }}</p>
@@ -23,8 +28,7 @@
     <div class="col px-4" *ngFor="let audioData of displayAudioDataList">
       <div class="card" style="width: 18rem;">
         <audio class="card-img-top" controls>
-          <source src="{{ audioData.source }}" type="audio/ogg">
-          <source src="horse.mp3" type="audio/mpeg">
+          <source *ngFor="let audioSource of audioData.sources" src="{{ audioSource.source }}" type="{{ audioSource.type }}">
           Your browser does not support the audio element.
         </audio>
         <div class="card-body">

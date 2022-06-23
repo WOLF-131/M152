@@ -1,0 +1,147 @@
+1
+00:00:00,000 --> 00:00:03,000
+Hier zeige ich, wie man meinen 3D Drucker leveln kann.
+
+2
+00:00:03,000 --> 00:00:07,000
+Das bedeutet, dass die Druckfläche gerade zum Druckkopf steht.
+
+3
+00:00:08,000 --> 00:00:11,000
+Es gibt Drucker welche dies automatisch erledigen können.
+
+4
+00:00:11,000 --> 00:00:13,000
+Jedoch muss ich es manuell machen,
+
+5
+00:00:13,000 --> 00:00:16,000
+dass heisst en Druckkopf manuell verschieben.
+
+6
+00:00:16,000 --> 00:00:19,000
+Ich habe jedoch im Internet ein Programm gefunden
+
+7
+00:00:19,000 --> 00:00:21,000
+welches automatisch in alle Ecken fährt
+
+8
+00:00:21,000 --> 00:00:22,000
+dann in die Mitte
+
+9
+00:00:22,000 --> 00:00:26,000
+und dazwischen immer eine Pause macht um die Druckfläche zu leveln.
+
+10
+00:00:26,000 --> 00:00:28,000
+Das Programm habe ich nun gestartet
+
+11
+00:00:28,000 --> 00:00:31,000
+und man sieht dass sich der Druckkopf zum Start bewegt.
+
+12
+00:00:33,000 --> 00:00:36,000
+Sobald der Druckkopf in der ersten Ecke ist,
+
+13
+00:00:36,000 --> 00:00:38,000
+kann man ein Post-It nehmen und es darunterschieben.
+
+14
+00:00:38,000 --> 00:00:41,000
+Das Ziel ist es einen leichten wiederstand zu spüren
+
+15
+00:00:41,000 --> 00:00:43,000
+Wenn dies nicht der Fall ist, kann man 
+
+16
+00:00:43,000 --> 00:00:45,000
+mit der unteren Schraube diesen Ecken so
+
+17
+00:00:25,000 --> 00:00:48,000
+verstellen bis man diesen leichten Wiederstand spüren kann.
+
+18
+00:00:49,000 --> 00:00:51,000
+Sobald der erste Ecken erledigt ist, 
+
+19
+00:00:51,000 --> 00:00:53,000
+kann man das Programm weiter laufen lassen.
+
+20
+00:00:53,000 --> 00:00:55,000
+Der Druckkopf geht automatisch in den nächsten Ecken
+
+21
+00:00:55,000 --> 00:00:57,000
+wo man das Gleiche wiederholen kann
+
+22
+00:00:57,000 --> 00:01:00,000
+bis man mit dem Post-It einen leichten Wiederstand spüren kann.
+
+23
+00:01:00,000 --> 00:01:03,000
+Sobald die beiden ersten Seiten erledigt sind 
+
+24
+00:01:03,000 --> 00:01:06,000
+kann man auch noch die beiden gegenüberliegenden Seiten leveln.
+
+25
+00:01:08,000 --> 00:01:10,000
+Danach fährt der Drucker in die Mitte
+
+26
+00:01:10,000 --> 00:01:12,000
+wo man nochmals das selbe wiederholen kann.
+
+27
+00:01:12,000 --> 00:01:15,000
+Bei meinem Fall sieht man dass man das Post-It nicht darunter kriegt,
+
+28
+00:01:15,000 --> 00:01:18,000
+dass heisst man muss nochmals beim 2. Durchgang
+
+29
+00:01:18,000 --> 00:01:20,000
+die Ecken etwas lockern.
+
+30
+00:01:21,000 --> 00:01:24,000
+Im 2. Durchgang kann man daselbe wiederholen
+
+31
+00:01:24,000 --> 00:01:26,000
+und es fällt besonders auf, 
+
+32
+00:01:26,000 --> 00:01:29,000
+dass der rechte untere Ecken sehr stark angezogen ist
+
+33
+00:01:29,000 --> 00:01:32,000
+was bedeutet das es zu stark eingestellt worden war.
+
+34
+00:01:32,000 --> 00:01:35,000
+Solche ungenauheuten kann man im 2. Durchgang beheben
+
+35
+00:01:35,000 --> 00:01:38,000
+und sobald alle Ecken bereit sind
+
+36
+00:01:38,000 --> 00:01:40,000
+geht der Drucker wieder zum Start
+
+37
+00:01:40,000 --> 00:01:42,000
+und man kann mit dem Drucken beginnen.

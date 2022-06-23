@@ -1,0 +1,149 @@
+1
+00:00:00,000 --> 00:00:03,000
+Here I show how to level my 3D printer.
+
+2
+00:00:03,000 --> 00:00:07,000
+This means that the print area is straight to the print head.
+
+3
+00:00:08,000 --> 00:00:11,000
+There are printers that can do this automatically.
+
+4
+00:00:11,000 --> 00:00:13,000
+However, I have to do it manually,
+
+5
+00:00:13,000 --> 00:00:16,000
+that means move the print head manually.
+
+6
+00:00:16,000 --> 00:00:19,000
+However, I have found a program on the Internet
+
+7
+00:00:19,000 --> 00:00:21,000
+which automatically moves to all corners
+
+8
+00:00:21,000 --> 00:00:22,000
+then to the center
+
+9
+00:00:22,000 --> 00:00:26,000
+and always pauses in between to level the print area.
+
+10
+00:00:26,000 --> 00:00:28,000
+I have now started the program
+
+11
+00:00:28,000 --> 00:00:31,000
+and you can see that the print head moves to the start.
+
+12
+00:00:33,000 --> 00:00:36,000
+As soon as the printhead is in the first corner,
+
+13
+00:00:36,000 --> 00:00:38,000
+you can take a Post-It and slide it underneath.
+
+14
+00:00:38,000 --> 00:00:41,000
+The goal is to feel a slight resistance.
+
+15
+00:00:41,000 --> 00:00:43,000
+If this is not the case you can turn
+
+16
+00:00:43,000 --> 00:00:45,000
+ the lower screw of the corners
+
+17
+00:00:25,000 --> 00:00:48,000
+until you can feel this slight resistance.
+
+18
+00:00:49,000 --> 00:00:51,000
+Once the first corner is done, 
+
+19
+00:00:51,000 --> 00:00:53,000
+you can continue to run the program.
+
+20
+00:00:53,000 --> 00:00:55,000
+The print head automatically goes to the next corner
+
+21
+00:00:55,000 --> 00:00:57,000
+where you can repeat the same thing
+
+22
+00:00:57,000 --> 00:01:00,000
+until you can feel a slight resistance with the Post-It.
+
+23
+00:01:00,000 --> 00:01:03,000
+As soon as the first two pages are done 
+
+24
+00:01:03,000 --> 00:01:06,000
+you can  level the two opposite sides too.
+
+25
+00:01:08,000 --> 00:01:10,000
+Then the printer moves to the center
+
+26
+00:01:10,000 --> 00:01:12,000
+where you can repeat the same thing again.
+
+27
+00:01:12,000 --> 00:01:15,000
+In my case you can see that you can't get the Post-It under it,
+
+28
+00:01:15,000 --> 00:01:18,000
+that means you have to do again at the 2nd pass
+
+29
+00:01:18,000 --> 00:01:20,000
+and loosen the corners a bit.
+
+30
+00:01:21,000 --> 00:01:24,000
+In the 2nd pass you can repeat the same thing
+
+31
+00:01:24,000 --> 00:01:26,000
+and it is particularly noticeable, 
+
+32
+00:01:26,000 --> 00:01:29,000
+that the lower right corner is very strongly tightened
+
+33
+00:01:29,000 --> 00:01:32,000
+which means that it was adjusted too much.
+
+34
+00:01:32,000 --> 00:01:35,000
+Such inaccuracies can be corrected in the 2nd pass.
+
+35
+00:01:35,000 --> 00:01:38,000
+and as soon as all corners are ready
+
+36
+00:01:38,000 --> 00:01:40,000
+the printer goes back to the start
+
+37
+00:01:40,000 --> 00:01:42,000
+and you can start printing.
+
+Translated with www.DeepL.com/Translator (free version)

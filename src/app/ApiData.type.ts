@@ -22,24 +22,54 @@ export class DisplayVideoData {
   altInfo: string;
   caption: string;
   isStream: boolean;
+  subs: VideoSubs[];
 
-  constructor(source: string, altInfo: string, caption: string, isStream: boolean = false) {
+  constructor(
+    source: string,
+    altInfo: string,
+    caption: string,
+    isStream: boolean = false,
+    subs: VideoSubs[] = []
+  ) {
     this.source = source;
     this.altInfo = altInfo;
     this.caption = caption;
     this.isStream = isStream;
+    this.subs = subs;
+  }
+}
+
+export class VideoSubs {
+  source: string;
+  lang: string;
+  label: string;
+
+  constructor(source: string, lang: string, label: string) {
+    this.source = source;
+    this.lang = lang;
+    this.label = label;
   }
 }
 
 export class DisplayAudioData {
-  source: string;
+  sources: AudioDataSource[];
   altInfo: string;
   caption: string;
 
-  constructor(source: string, altInfo: string, caption: string) {
-    this.source = source;
+  constructor(sources: AudioDataSource[], altInfo: string, caption: string) {
+    this.sources = sources;
     this.altInfo = altInfo;
     this.caption = caption;
+  }
+}
+
+export class AudioDataSource {
+  source: string;
+  type: string;
+
+  constructor(source: string, type: string) {
+    this.source = source;
+    this.type = type;
   }
 }
 
