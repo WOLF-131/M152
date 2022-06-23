@@ -39,10 +39,9 @@ export class TutorialsComponent implements OnInit {
 
         this.displayVideoDataList.push(
           new DisplayVideoData(
-          "http://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd",
-          "Test of mpeg-dash",
-          "Test",
-          true
+          "/assets/janik_leveling/manifest.mpd",
+          "In this tutorial, Janik is showing, how to level the bed of his 3D printer.",
+          "Tutorial: RatRig Bedleveling"
         ));
       }
     );
